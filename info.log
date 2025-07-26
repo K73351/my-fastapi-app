@@ -1,0 +1,36 @@
+Log: [46f077aa-e41e-47d0-a4cb-1f0f5b7dd5fe:2025-07-17T18:35:53.141042+0300 - INFO - Successfully accessed /docs 
+Log: [a131964f-efa9-4594-9072-2999fccc6959:2025-07-17T18:35:53.487279+0300 - INFO - Successfully accessed /openapi.json 
+Log: [28603832-c249-4e4c-aad1-f27398170a6b:2025-07-17T18:36:08.709977+0300 - INFO - Successfully accessed / 
+Log: [c400c05b-6230-4d2c-881f-754b9a1a4a95:2025-07-17T18:36:23.209366+0300 - INFO - Successfully accessed /products/ 
+Log: [6476d2e8-01a4-4bdd-a164-64dd3cd1b9b8:2025-07-17T18:36:35.429011+0300 - WARNING - Request to /reviews/create failed 
+Log: [e2c8ef31-510f-49a6-8e51-9c825164f722:2025-07-17T18:36:44.320308+0300 - INFO - Successfully accessed /reviews/ 
+Log: [c1d69b63-6ae9-4a06-8056-884189c26d02:2025-07-17T18:36:53.451681+0300 - INFO - Successfully accessed /auth/token 
+Log: [300b53ef-d6ae-4e72-a00a-6aa32d13baef:2025-07-17T18:37:37.546909+0300 - ERROR - Request to /products/create failed: name 'unicode' is not defined 
+Log: [018e7ca6-2954-4e99-9571-aec1331405f7:2025-07-19T13:09:31.084269+0300 - INFO - Successfully accessed /docs 
+Log: [ef2a5ee3-7100-45c1-b635-6d52b0e806e3:2025-07-19T13:09:31.457940+0300 - INFO - Successfully accessed /openapi.json 
+Log: [0a1c5612-99ea-40a2-be94-11c0bd1c2f2e:2025-07-20T15:31:51.992116+0300 - INFO - Successfully accessed / 
+Log: [b118c5ce-4a25-4484-ad69-e53f69bd9c33:2025-07-20T15:31:53.903566+0300 - INFO - Successfully accessed / 
+Log: [d97cc896-0a32-4e08-9ada-773ca6391572:2025-07-20T12:41:20.503397+0000 - INFO - Successfully accessed / 
+Log: [8b02d0ac-c43d-4caa-be4e-800a118130a5:2025-07-20T12:41:30.020283+0000 - INFO - Successfully accessed /docs 
+Log: [69e7071c-7f2f-4f05-8486-d4b349c9d9f0:2025-07-20T12:41:30.442489+0000 - INFO - Successfully accessed /openapi.json 
+Log: [48bda9cd-a176-41f7-9202-460d2e4e98b9:2025-07-20T12:41:40.701457+0000 - ERROR - Request to /category/all_categories failed: Multiple exceptions: [Errno 111] Connect call failed ('::1', 5432, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 5432) 
+Log: [a08c7494-c931-49d0-893e-c713343e19a8:2025-07-20T12:43:09.251982+0000 - INFO - Successfully accessed / 
+Log: [6cc77216-6c99-473e-a78b-3a54d56a69ad:2025-07-20T12:47:38.487021+0000 - INFO - Successfully accessed / 
+Log: [f41ab894-054e-4c2c-b1ef-b36e1b607c86:2025-07-20T12:47:42.392093+0000 - INFO - Successfully accessed /docs 
+Log: [b1753267-e272-4c5f-93f5-e194b850b258:2025-07-20T12:47:42.781528+0000 - INFO - Successfully accessed /openapi.json 
+Log: [8cb5e976-1852-4c67-b648-bc03317dfb66:2025-07-20T12:47:47.295192+0000 - ERROR - Request to /category/all_categories failed: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "categories" does not exist
+[SQL: SELECT categories.id, categories.name, categories.slug, categories.is_active, categories.parent_id 
+FROM categories 
+WHERE categories.is_active = true]
+(Background on this error at: https://sqlalche.me/e/20/f405) 
+Log: [64eaa3c6-d143-4755-844f-3f3645d16482:2025-07-20T12:53:47.847115+0000 - INFO - Successfully accessed /category/all_categories 
+Log: [26c3990e-2708-4ceb-9500-36ed8bb627de:2025-07-20T12:53:53.913876+0000 - WARNING - Request to /category/create failed 
+Log: [f997ec4b-60a8-4084-ad61-9979b272cdc2:2025-07-20T14:20:01.135692+0000 - INFO - Successfully accessed /docs 
+Log: [51ed93f9-4ac8-4e27-ad43-08d4b23fafb6:2025-07-20T14:20:01.613264+0000 - INFO - Successfully accessed /openapi.json 
+Log: [f8f235a0-3391-4cd3-8267-e22c3c5e1063:2025-07-20T14:20:09.348856+0000 - WARNING - Request to /products/ failed 
+Log: [b948273e-6dfd-4dc9-be86-8131a0034867:2025-07-20T14:20:31.603092+0000 - INFO - Successfully accessed /reviews/ 
+Log: [572c7d6b-ff4b-4506-aa3c-42ee8e719751:2025-07-20T14:20:48.550276+0000 - INFO - Successfully accessed /category/all_categories 
+Log: [cfda6d4d-ee71-4445-a22e-92721e819fa1:2025-07-20T14:33:52.517823+0000 - INFO - Successfully accessed / 
+Log: [4dd8a44f-2a0b-4e51-9520-5bd9b2163fb4:2025-07-20T14:33:52.824957+0000 - WARNING - Request to /favicon.ico failed 
+Log: [ded00d84-6d14-4cd1-9f1b-32b1f4f2c89d:2025-07-20T14:33:57.162742+0000 - INFO - Successfully accessed /docs 
+Log: [0722e3b2-2522-4b4f-9138-8a6d2a22e286:2025-07-20T14:33:57.777665+0000 - INFO - Successfully accessed /openapi.json 
